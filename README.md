@@ -1,2 +1,2 @@
-re-introduction_to_javascript
+JavaScript 「再」入門
 =============================
