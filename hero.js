@@ -4,7 +4,7 @@
  */
 function Hero() {
     this.name = 'Hero';
-    console.log('Hero instantiated');
+    console.log('DEBUG Hero instantiated');
 }
 
 /**
@@ -19,7 +19,7 @@ Hero.prototype.logs = function() {
  */
 function Foze() {
     this.belt = 'foze belt';
-    console.log('Foze instantiated');
+    console.log('DEBUG Foze instantiated');
 }
 Foze.prototype = new Hero();
 Foze.prototype.name = 'Foze';
